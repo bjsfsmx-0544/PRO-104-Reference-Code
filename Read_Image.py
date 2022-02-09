@@ -1,16 +1,16 @@
 import cv2
 
-# Read Image
+# Leer imagen
 img = cv2.imread("butterfly.jpg")
 
-# Display Colored Image
-cv2.imshow("Display Image",img)
+# Mostrar imagen a color
+cv2.imshow("Mostrar imagen",img)
 
-# Convert Colored Image To Grayscale
+# Convertir imágenes a color en escala de grises
 gray_img = cv2.cvtColor(img,cv2.COLOR_RGB2GRAY)
 
-# Display Grayscale Image
-cv2.imshow("Grayscale", gray_img)
+# Mostrar imagen en escala de grises
+cv2.imshow("Escala de grises", gray_img)
 
 
 #print(gray_img)
